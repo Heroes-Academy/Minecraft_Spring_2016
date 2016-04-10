@@ -16,7 +16,7 @@ Resources and Links
 Lecture Slides
 --------------
 
-.. raw::html
+.. raw:: html
 
     <iframe src="https://docs.google.com/presentation/d/11v5cNKZPt6ovXN1UUCmqT4tSrLoMWuS60YG6XGXVMsQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
