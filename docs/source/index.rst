@@ -31,7 +31,33 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: Course Contents
+   :caption: Introduction
 
    week1
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Architect Project
+
+   week2
+   week3
+   week4
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Interactive Project
+
+   week5
+   week6
+   week7
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Capstone Project
+
+   week8
+   week9
+   week10
+
+
 

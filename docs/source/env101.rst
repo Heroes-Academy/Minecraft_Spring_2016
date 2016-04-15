@@ -1,0 +1,85 @@
+Python Libraries 101
+====================
+
+The goal of this course is to use Python to make things happen inside the Minecraft world.
+
+I will go over the details, but our typical work flow will consist of:
+
+  1. Being logged into the Minecraft client and connected to the server
+  2. Using the iPython console to try out different commands
+  3. Writing longer files and then running them individually
+
+
+Using the iPython console
+-------------------------
+
+In using the iPython console, we can do basic commands. 
+
+First, you start by importing the library:
+
+.. code-block:: python
+    :linenos:
+
+    from mcpi.minecraft import Minecraft
+    mc = Minecraft.create()
+
+
+This does the following steps:
+
+1. Look where Python usually looks for, and find the library called mcpi
+2. From mcpi, look inside the minecraft module/file and get the Minecraft class
+3. Use the Minecraft class to connect to the Minecraft server (which should be running).
+
+Note: If you close the server, this connection will close. 
+
+With this imported, we can now send commands to the server
+
+.. code-block:: python
+    :linenos:
+
+    # send your player into the air
+    mc.player.setPos((0,500,0))
+
+
+Using longer files by themselves
+--------------------------------
+
+There are two ways to use longer files.  The first way is to write the file
+and then run it.  This would look like
+
+.. code-block:: python
+    :linenos:
+
+    from mcpi.minecraft import Minecraft
+    mc = Minecraft.create()
+
+    mc.player.setPos((0,500,0))
+
+    print("Player is flying!")
+
+Now, you can just run that file. 
+
+
+Using longer files as a library
+-------------------------------
+
+Another way to use longer files is to make a more advanced library.  Then, we can import
+functions the same way we imported mcpi.  This requires setting your Python Path. 
+
+The Python Path is a variable that your operating system keeps track of.
+It is actually just a collection of paths.  A path is a single folder location on your
+computer.  For example, a path could be "C:\Program Files"
+
+The Python Path tells Python "Hey! When you want libraries.. come ask me where to look".  
+Anything outside of the paths it stores will not be checked. 
+
+So, if we want to use our longer files as a library, we have to set this.  
+
+- `Windows 7 <http://stackoverflow.com/questions/25153802/how-to-set-python-path-in-windows-7>`_
+- `Windows 10 <http://www.anthonydebarros.com/2015/08/16/setting-up-python-in-windows-10/>`_
+- `Mac <http://stackoverflow.com/questions/15742779/how-can-i-edit-pythonpath-on-a-mac>`_
+
+The folder you want to add to your python path is going to be the folder JUST ABOVE 
+your library folder.
+
+So, if your library is in the folder **C:\code\mclibrary**, then you would add **C:\code** to the python path. 

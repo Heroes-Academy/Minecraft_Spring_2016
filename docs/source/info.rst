@@ -14,7 +14,7 @@ The Minecraft Mods course will be meeting the following Sundays from 2:00 to 4:0
 How do I register for this course?
 ----------------------------------
 
-You can register for this course right now!  
+This course has already started, but maybe you can register for another course!
 The main HEROES website has all registration information.  
 You can find the Minecraft page `linked here <http://www.njgifted.org/course-view?course=intermediate-computer-programming-with-python>`_.
 If you have any questions about the process, you
