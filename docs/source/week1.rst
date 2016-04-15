@@ -9,7 +9,7 @@ Welcome to the first week of Minecraft Mods (alternate name: Mastering Minecraft
 We saw the basics of how the library works and what we are going to do with it.  
 
 We are going to make our programming environment more and more advanced as the 10 weeks goes on,
-but for now, please check out the :doc: `env101`.  
+but for now, please check out the :doc:`env101`.  
 
 
 Recap of mcpi library
