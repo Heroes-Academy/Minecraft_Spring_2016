@@ -60,4 +60,9 @@ Contents
    week10
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Resources and Guides
+
+   env101
 
