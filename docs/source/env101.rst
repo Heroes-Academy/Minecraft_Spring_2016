@@ -1,5 +1,5 @@
-Python Libraries 101
-====================
+Programming Environment 101
+===========================
 
 The goal of this course is to use Python to make things happen inside the Minecraft world.
 
