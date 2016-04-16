@@ -82,4 +82,4 @@ So, if we want to use our longer files as a library, we have to set this.
 The folder you want to add to your python path is going to be the folder JUST ABOVE 
 your library folder.
 
-So, if your library is in the folder **C:\code\mclibrary**, then you would add **C:\code** to the python path. 
+So, if your library is in the folder **C:\\code\\mclibrary**, then you would add **C:\\code** to the python path. 
