@@ -7,25 +7,16 @@ Summary
 Today we went over the basics of planning. Specifically, we covered top-down
 and bottom-up programming.  They each have their pros and cons:
 
-- Top-down programming is great for when you have a big idea but you aren't sure where to start.  It's useful
-to break things into smaller pieces.
-- Bottom-up programming is good for building incremental code. Each additional piece you add
-is built on top of what you have.  This allows for you to build incremental tests, have
-minimum working examples at all times, and not get lost in a code base that is too complicated.
+- Top-down programming is great for when you have a big idea but you aren't sure where to start.  It's useful to break things into smaller pieces.
+- Bottom-up programming is good for building incremental code. Each additional piece you add is built on top of what you have.  This allows for you to build incremental tests, have minimum working examples at all times, and not get lost in a code base that is too complicated.
 
-Each should be used in different situations.  However, when completing a project,
-both situations come up.  For the Architect project, they can both be used in the following
-ways:
+Each should be used in different situations.  However, when completing a project, both situations come up.  For the Architect project, they can both be used in the following ways:
 
 1. Use top-down programming to decompose your idea into smaller and smaller chunks
 2. As you decompose, identify the chunks that lie just above the actual code
-3. With these chunks identified, begin the bottom-up programming in which you write
-incremental code.  This means you increase the complexity and size of your code
-one feature at a time.
+3. With these chunks identified, begin the bottom-up programming in which you write incremental code.  This means you increase the complexity and size of your code one feature at a time.
 
-During class, you were all assigned to teams.  Each team spent time planning
-a project.  You were supposed to decompose the goal into specific parts and then
-plan out the minimum working examples.
+During class, you were all assigned to teams.  Each team spent time planning a project.  You were supposed to decompose the goal into specific parts and then plan out the minimum working examples.
 
 Expected Homework
 -----------------
